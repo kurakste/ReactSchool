@@ -6,13 +6,15 @@ import Items from './Items';
 
 function App() {
   return (
-    <Button variant="contained" color="primary">
-      Hello World
-    </Button>,
-    <Demo />,
-    <Items />,
-    <Items />,
-    <Items />
+    <dev>
+      <Button variant="contained" color="primary">
+        Hello World
+      </Button>
+      <Demo />
+      <Items />
+      <Items />
+      <Items />
+    </dev>
   );
 }
 
